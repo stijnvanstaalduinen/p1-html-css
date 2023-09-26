@@ -1,3 +1,4 @@
+
 body{background-color: rgb(249, 249, 249);}
 h1{color: blue; font-size:  24px; text-decoration-thickness: auto; font-style: italic; ;}
  
@@ -21,3 +22,15 @@ body {
     a:hover {text-decoration: underline;}
     
     a:active {text-decoration: underline;}
+=======
+body{background-color: rgb(249, 249, 249);}
+h1{color: blue; font-size:  24px; text-decoration-thickness: auto; font-style: italic; ;}
+ 
+h2{font-size: 20px; color: #0000ff;
+    text-decoration-thickness: auto;}
+h3{color: teal; font-size: 16px;;
+    text-decoration-thickness: auto;}
+p{color: #4D4D4D;}
+a{color: #8a2be2;}
+     
+
