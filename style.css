@@ -1,5 +1,5 @@
 
-body{background-color: rgb(249, 249, 249);}
+body{background-color: #ffffff;}
 h1{color: blue; font-size:  24px; text-decoration-thickness: auto; font-style: italic; ;}
  
 h2{font-size: 20px; color: #0000ff;
@@ -7,14 +7,7 @@ h2{font-size: 20px; color: #0000ff;
 h3{color: teal; font-size: 16px;;
     text-decoration-thickness: auto;}
 p{color: #4D4D4D;}
-a{color: #8a2be2;}
-     
-body {
-    background-image:url (stijn\images\code\jpg)
-    }
-
-
-
+a{color: #8a2be2;}   
     a:link { text-decoration: none;}
     
     a:visited {text-decoration: none;}
@@ -22,15 +15,21 @@ body {
     a:hover {text-decoration: underline;}
     
     a:active {text-decoration: underline;}
-=======
+
+#background{background-image:url(./img/sos.jpg) ;
+background-repeat:no-repeat ;
+background-position: center;}
 body{background-color: rgb(249, 249, 249);}
+img{width: 400px; ;
+height: 400px; ;}
 h1{color: blue; font-size:  24px; text-decoration-thickness: auto; font-style: italic; ;}
  
 h2{font-size: 20px; color: #0000ff;
     text-decoration-thickness: auto;}
 h3{color: teal; font-size: 16px;;
     text-decoration-thickness: auto;}
-p{color: #4D4D4D;}
+p{color: #ffffff;}
 a{color: #8a2be2;}
+text{text-align: center;}
      
 
