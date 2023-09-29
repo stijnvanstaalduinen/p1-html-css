@@ -43,9 +43,33 @@ background-size: cover;
 }
 
 h1{
-color:#1892c3 ;}
+color:#ffffff ; text: decoration thickness 100%;}
 
 p{color: #1892c3;
 }
+
+h1{text-align: center;
+position:relative;
+bottom: -200px ;
+font-size: 100px;}
+
+footer{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+
+  bottom: 0px;
+  background: #1892c3;
+  justify-content: space-between;
+}
+
+ 
+  
+
 
 
