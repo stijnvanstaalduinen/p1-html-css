@@ -67,6 +67,32 @@ footer{
   background: #1892c3;
   justify-content: space-between;
 }
+#javtext{text-align: center;
+  position:relative;
+  bottom: -50px ;
+  font-size: 100px;}
+  #javtext2{color: white;}
+  #sqltext{text-align: center;
+    position:relative;
+    bottom: -50px ;
+    font-size: 100px;}
+    #sqltext2{color: white;}
+p{color: white;}    
+#phptext{text-align: center;
+  position:relative;
+  bottom: -50px ;
+  font-size: 100px;
+color: black;}
+  #phptext2{color: rgb(0, 0, 0)}
+  #progammatext{text-align: center;
+    position:relative;
+    bottom: -50px ;
+    font-size: 100px;
+  color: black;}
+  #progammatext2{color: rgb(0, 0, 0)}
+  #ptext{color: black;}
+
+
 
  
   
