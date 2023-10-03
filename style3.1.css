@@ -71,38 +71,100 @@ footer{
 
 #javtext{text-align: center;
   position:relative;
-  bottom: -50px ;
-  font-size: 100px;}
+  bottom: -25px ;
+  font-size: 75px;
+color: white;}
 
-  #javtext2{color: white;}
+  #javtext2{color: rgb(255, 255, 255);   
+    font-size: 45px; 
+    position: relative;
+    left: 250px;
+    bottom: -50px;}
   
   #sqltext{text-align: center;
     position:relative;
-    bottom: -50px ;
-    font-size: 100px;}
+    bottom: -25px ;
+    font-size: 75px;
+  color: white;}
 
-    #sqltext2{color: white;}
+    #sqltext2{color: rgb(255, 255, 255);   
+      font-size: 45px; 
+      position: relative;
+      left: 250px;
+      bottom: -50px;}
 
     p{color: white;}    
 
     #phptext{text-align: center;
-  position:relative;
-  bottom: -50px ;
-  font-size: 100px;
-color: black;}
+      position:relative;
+      bottom: -25px ;
+      font-size: 75px;
+    color: black;}
  
-#phptext2{color: rgb(0, 0, 0)}
+
 
 #progammatext{text-align: center;
     position:relative;
-    bottom: -50px ;
-    font-size: 100px;
+    bottom: -25px ;
+    font-size: 75px;
   color: black;}
 
-  #progammatext2{color: rgb(0, 0, 0)}
+  h2{color: rgb(0, 0, 0);   
+font-size: 45px; 
+position: relative;
+right: -900px;
+bottom: -50px;}
 
-  #ptext{color: black;}
+  #ptext{ position: absolute;
+    right: 200px;
+    bottom: 200px;
+    width: 500px;
+    border: 3px; padding: 10px; 
+    text-align: justify;
+color: black;
+font-size: large; }
+#ptext2{position: absolute;
+  left: 200px;
+  bottom: 200px;
+  width: 500px;
+  border: 3px; padding: 10px; 
+  text-align: justify;
+color: white;
+font-size: large;}
+  
 
+#htmlafb{left: 200px;
+  width: 500px;
+  height: 500px;
+
+position: relative;
+}
+
+#phpimg{left: 200px;
+  width: 450px;
+  height: 450px;
+  position: relative;
+}
+
+#javaafb{right: -900px;
+  width: 400px;
+  height: 400px;
+  position: relative;}
+
+  #sqlafb{right: -900px;
+    width: 400px;
+    height: 350px;
+    position: relative;}
+  
+#htmlclr{ color:#0071BB ;}
+
+#cssclr{color: #E44D27;}
+
+#phpclr{color:#8993BE ;}
+
+#java{color: #F7DF1E;}
+
+#sqlclr{color: #E48E00;}
 
 
  

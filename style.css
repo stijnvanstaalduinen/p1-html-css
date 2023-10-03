@@ -1,35 +1,54 @@
 
-body{background-color: #ffffff;}
-h1{color: blue; font-size:  24px; text-decoration-thickness: auto; font-style: italic; ;}
- 
-h2{font-size: 20px; color: #0000ff;
-    text-decoration-thickness: auto;}
-h3{color: teal; font-size: 16px;;
-    text-decoration-thickness: auto;}
-p{color: #4D4D4D;}
-a{color: #8a2be2;}   
-    a:link { text-decoration: none;}
+h1{
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;
     
-    a:visited {text-decoration: none;}
     
-    a:hover {text-decoration: underline;}
     
-    a:active {text-decoration: underline;}
+}
+#last{height: 550px;}
+#splatoon{height: 550px;}
+#steel{height: 550px;}
+#dio{height: 550px;}
+#valk{height: 550px;}
 
-#background{background-image:url(./img/sos.jpg) ;
-background-repeat:no-repeat ;
-background-position: center;}
-body{background-color: rgb(249, 249, 249);}
-img{width: 400px; ;
-height: 400px; ;}
-h1{color: blue; font-size:  24px; text-decoration-thickness: auto; font-style: italic; ;}
- 
-h2{font-size: 20px; color: #0000ff;
-    text-decoration-thickness: auto;}
-h3{color: teal; font-size: 16px;;
-    text-decoration-thickness: auto;}
-p{color: #ffffff;}
-a{color: #8a2be2;}
-text{text-align: center;}
-     
+
+
+
+
+h2{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;    
+}
+h3{font: 16px;
+color: white;
+font-weight: bold;}
+
+p{color: white;
+}
+
+header{font-weight: bold;
+    width: max-content;
+    height: 400px;
+    background-image:url(./img/sos.jpg) ;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+a{
+    color: #8A2BE2;
+    text-decoration: none;
+    
+}
+body{background-color:royalblue;
+}
+
+article{border-style: solid;
+border-radius: 25px;
+color:black;
+border-left-width: 15px;}
 
