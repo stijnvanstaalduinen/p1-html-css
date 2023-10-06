@@ -1,0 +1,22 @@
+
+  
+  
+ .flex-container {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+}
+
+.flex-container > div {
+  position: relative;
+   width: 200px;
+   height: 200px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+#box1{background-color: blue;}
+#box2{background-color: black;}
+#box3{background-color: red;}
+#box4{background-color: green;}
+
+div{ color: white;}
