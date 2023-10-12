@@ -1,22 +1,31 @@
 
   
   
- .flex-container {
+
+#flex-container{
   display: flex;
-  background-color: rgb(255, 255, 255);
-}
-
-.flex-container > div {
+  flex-direction: row-reverse;
+  justify-content: space-around;
   position: relative;
-   width: 200px;
-   height: 200px;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-}
-#box1{background-color: blue;}
-#box2{background-color: black;}
-#box3{background-color: red;}
-#box4{background-color: green;}
+  max-width: 1200px;
+ }
 
-div{ color: white;}
+#box1{
+  background-color: blue;
+  width: 200px;
+  height: 200px;}
+#box2{
+  background-color: black;
+  width: 200px;
+  height: 200px;}
+#box3{
+  background-color: red;
+  width: 200px;
+  height: 200px;}
+#box4{
+  background-color: green;
+  width: 200px;
+  height: 200px;}
+
+
+  
