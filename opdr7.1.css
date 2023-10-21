@@ -1,0 +1,76 @@
+.divmenu{
+    background-color:red ;
+    position: absolute;
+    top: 0;
+    border-radius: 10px;
+    margin: 0 -500%;
+    padding: 0 500%;
+    max-block-size: 100%;}
+
+.divtile2{
+    background-color:rgb(255, 230, 0) ;
+    position: absolute;
+    top:    8vh;
+    height: 35vh;
+    border-radius: 10px;
+    margin: 0 -500%;
+    padding: 0 500%;}
+
+.divtile3{
+    background-color: orange;
+    position: absolute;
+    top: 36vh;
+    height: 35vh;
+    border-radius: 10px;
+    margin: 0 -500%;
+    padding: 0 500%;}
+
+.divtile4{
+    background-color: green;
+    position: absolute;
+    top: 66vh;
+    height: 35vh;
+    border-radius: 10px;
+    margin: 0 -500%;
+    padding: 0 500% ;
+    overflow: hidden;}
+
+div{
+    overflow: hidden;}
+
+
+body{
+    overflow: hidden;}
+
+
+
+@media (max-width: 1300px) {
+    .divmenu{
+        background-color: rgb(206, 60, 128);
+        text-align: center;} 
+    .divtile2{
+        background-color: rgb(160, 10, 10);}
+
+     .divtile3{
+        background-color: rgb(64, 1, 165);}
+
+     .divtile4 {
+        background-color: rgb(0, 0, 162);}}
+ 
+
+@media (max-width: 560px) {
+    .divmenu{
+        background-color: rgb(76, 0, 255);} 
+
+    .divtile2{
+        background-color: aqua;
+        text-align: center;}
+
+     .divtile3{
+        background-color: purple;
+        text-align: center;}
+
+     .divtile4 {
+        background-color: rgb(20, 20, 73);
+        text-align: center;}}
+
