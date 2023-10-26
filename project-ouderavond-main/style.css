@@ -1,0 +1,214 @@
+#navbar{
+    background-color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    margin: 0 -55%;
+    padding: 0 55%;
+    z-index: 100;
+}
+    
+.h2naam{
+    color: white;
+    z-index: 110;
+    background-color: #2D6401;
+    position: absolute;
+    top: 15vh;
+    width: 45vh;
+    height: 23vh;
+    text-align: center;
+    font-size: xx-large;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 14px;
+    font-size: xx-large;
+
+}
+
+body{
+    background-size: cover;
+    background-color: #053501;
+    overflow: hidden;
+    
+}
+
+.line-break::after{
+    white-space: pre;
+}
+   
+
+.locatieh2{
+    z-index: 109;
+    position: absolute;
+    color: white;
+    top: 15vh;
+    width: 40vw;
+    height: 40vh;
+    background-color: #2D6401;
+    font-size: xx-large;
+
+
+}
+
+.examentabel{
+    z-index: 110;
+    position:relative;
+    color: white;
+    top: 15vh;
+    width: 60%;
+    font-size: x-large;
+    
+    
+    
+    
+}
+
+table,th,td{
+    border: 2px solid ;
+}
+
+.nupagina{
+    z-index: 110;
+    position: absolute;
+    color: white;
+    top: 12vh;
+    width: 20vw;
+    height: 10vh;
+    text-align: center;
+    justify-content: center;
+    
+    right: 0;
+    background-color: #2D6401;
+}
+
+.tcr3{
+    z-index: 109;
+    position: absolute;
+    top: 50vh;
+    right: 0;
+    width: 40vw;
+    bottom: 0;
+
+}
+
+.dropbtn {
+    background-color:black;
+    color: white;
+    padding: 16px;
+    font-size: xx-large;
+    border: none;
+    z-index: 110;
+
+  }
+
+  .dropbtn:hover, .dropbtn:focus {
+    background-color:black;}
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        z-index: 110;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 110;
+      }
+
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        z-index: 110;
+      }
+
+      .dropdown-content a:hover {background-color: #ddd;}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.h1naam{ color: white;
+    background-color: #2D6401;
+    position: absolute;
+    top: 15vh;
+    width: 50vh;
+    height: 80vh;
+    text-align: center;
+    right: 1vh;
+    font-size: large;
+  }
+
+
+  #can{
+    top: 22vh;
+    width: 70vh;
+    right: 65vh;
+    position:absolute;
+    justify-content: center;
+    }
+
+    .h2naam{
+        background-color: #2D6401;
+        height: 80vh;
+        width: 50vh;
+        font-size: x-large;
+    }
+    
+    .h2over{
+        width: 62vh;
+        font-size: x-large;
+    }
+
+    .fotodor{
+        position: absolute;
+        left: 0;
+        width: 12vh;
+    }
+
+    .fotostein{
+        position: absolute;
+        left: 0;
+        width: 10vh;
+        bottom: 35vh;
+    }
+
+    #edu{
+    position: absolute;
+    top: 30vh;
+    width: 100vh;
+    right: 60vh;
+
+
+
+    }
+    
+    .adviestext{
+        background-color: #2D6401;
+        height: 80vh;
+        width: 50vh;
+        font-size: xx-large;
+        color: white;
+
+    }
+    @media(max-width: 1300px){
+
+
+    }
+   @media (max-width: 560px){
+
+
+    }
+
