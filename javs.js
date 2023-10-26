@@ -1,13 +1,14 @@
 
-let budget = 100 
-console.log(budget)
+let budget = 100;
+let productprijs = 60;
+let saldo = document.getElementById("resultaat");
 
-if(numer < 60){
-    tekst = "te weing geld"
+if(saldo => productprijs){
+    let over = budget - productprijs;
+    saldo.innerHTML = "u heeft genoeg! " + over + "is er over van : " + budget + "euro";
+    saldo.style.color = "green";
 }
-else if (number < 100){
- tekst =  "u heeft genoeg"
-}
-else{    tekst = "het budget is op"
-}
+else{saldo.innerHTML = "helaas u heeft te weining!";
+saldo.style.color = "red";
+   }
     
